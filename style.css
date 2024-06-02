@@ -37,7 +37,7 @@ header {
 }
 
 section {
-    background-image: radial-gradient(#7f3d9e, #6d00d9);
+    background-image: radial-gradient(#c5be32, #155c80);
     height: 100vh;
     position: relative;
 
@@ -62,7 +62,7 @@ section {
                     transform: rotate(-30deg);
                 }
 
-                &::before{
+                &::before {
                     content: '';
                     position: absolute;
                     background-color: #000;
@@ -72,7 +72,7 @@ section {
                     left: 50px;
                     border: 50%;
                     filter: blur(50px);
-                    
+
                 }
             }
 
@@ -109,7 +109,7 @@ section {
                     height: 35px;
                     width: 120px;
                     text-transform: uppercase;
-                    border: 2px solid #791fd3;
+                    border: none;
                     background-color: #beff1b;
                     color: #000;
                     cursor: pointer;
@@ -207,6 +207,7 @@ section {
 
 section {
     --calculation: 1;
+
     & .list {
         & .item {
             transform: translateX(calc(100vw * var(--calculation)));
